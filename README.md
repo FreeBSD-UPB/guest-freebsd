@@ -17,6 +17,7 @@ Basic run command order:
 The following commands assume that the repositories were downloaded in /root/
 directly. If the path is different, please correct the path specified in the
 'FVP_VE_CORTEX_A15x1_GUEST' file.
-/root/freebsd/$ make buildworld
-/root/bhyve-utils/ramdisk/$ bash build_ramdisk.sh
+
+/root/freebsd/$ make buildworld  
+/root/bhyve-utils/ramdisk/$ bash build_ramdisk.sh  
 /root/freebsd/$ make buildkernel KERNCONF=FVP_VE_CORTEX_A15x1_GUEST
